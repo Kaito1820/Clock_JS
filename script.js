@@ -8,7 +8,7 @@ function showTime(){
         hour = hour - 12;
         state = "PM";
     }
-    if(hour > 0 && hour < 10){
+    if(hour >= 0 && hour < 10){
         hour = "0" + hour;
     }
     else hour = hour;
